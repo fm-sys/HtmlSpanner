@@ -24,7 +24,7 @@ allprojects {
 apply plugin: 'com.android.library'
 
 dependencies {
-    implementation 'net.sourceforge.htmlcleaner:htmlcleaner:2.16'
+    compile 'net.sourceforge.htmlcleaner:htmlcleaner:2.16'
 }
 
 android {
