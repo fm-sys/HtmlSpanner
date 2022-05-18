@@ -2,8 +2,8 @@ package net.nightwhistler.htmlspanner.handlers;
 
 import android.text.SpannableStringBuilder;
 import android.util.Log;
-import com.osbcp.cssparser.CSSParser;
-import com.osbcp.cssparser.Rule;
+import net.nightwhistler.htmlspanner.css.parser.CSSParser;
+import net.nightwhistler.htmlspanner.css.parser.Rule;
 import net.nightwhistler.htmlspanner.SpanStack;
 import net.nightwhistler.htmlspanner.TagNodeHandler;
 import net.nightwhistler.htmlspanner.css.CSSCompiler;

@@ -2,9 +2,9 @@ package net.nightwhistler.htmlspanner.css;
 
 import android.graphics.Color;
 import android.util.Log;
-import com.osbcp.cssparser.PropertyValue;
-import com.osbcp.cssparser.Rule;
-import com.osbcp.cssparser.Selector;
+import net.nightwhistler.htmlspanner.css.parser.PropertyValue;
+import net.nightwhistler.htmlspanner.css.parser.Rule;
+import net.nightwhistler.htmlspanner.css.parser.Selector;
 import net.nightwhistler.htmlspanner.FontFamily;
 import net.nightwhistler.htmlspanner.HtmlSpanner;
 import net.nightwhistler.htmlspanner.style.Style;

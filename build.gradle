@@ -15,12 +15,8 @@ buildscript {
 allprojects {
 
     repositories {
-        jcenter()
         google()
         mavenCentral()
-        maven {
-            url "http://repo.pageturner-reader.org"
-        }
     }
 
 }
@@ -29,7 +25,6 @@ apply plugin: 'com.android.library'
 
 dependencies {
     implementation 'net.sourceforge.htmlcleaner:htmlcleaner:2.16'
-    implementation 'com.osbcp.cssparser:cssparser:1.5'
 }
 
 android {

@@ -22,8 +22,6 @@ import java.io.Reader;
 import java.util.HashMap;
 import java.util.Map;
 
-import android.util.Log;
-
 import net.nightwhistler.htmlspanner.css.CSSCompiler;
 import net.nightwhistler.htmlspanner.exception.ParsingCancelledException;
 import net.nightwhistler.htmlspanner.handlers.*;
@@ -43,8 +41,8 @@ import org.htmlcleaner.TagNode;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 
-import com.osbcp.cssparser.CSSParser;
-import com.osbcp.cssparser.Rule;
+import net.nightwhistler.htmlspanner.css.parser.CSSParser;
+import net.nightwhistler.htmlspanner.css.parser.Rule;
 
 /**
  * HtmlSpanner provides an alternative to Html.fromHtml() from the Android

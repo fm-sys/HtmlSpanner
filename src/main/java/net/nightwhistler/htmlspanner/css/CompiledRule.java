@@ -1,14 +1,9 @@
 package net.nightwhistler.htmlspanner.css;
 
-import android.util.Log;
-import com.osbcp.cssparser.PropertyValue;
-import com.osbcp.cssparser.Rule;
-import com.osbcp.cssparser.Selector;
 import net.nightwhistler.htmlspanner.HtmlSpanner;
 import net.nightwhistler.htmlspanner.style.Style;
 import org.htmlcleaner.TagNode;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
